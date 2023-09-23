@@ -70,3 +70,48 @@ Inline Styles - have higher specificity than IDs
 **Font families** specifies a list of one or more font family names.
 
 `font-family: Georgia, serif;`
+
+Related to the typography:
+
+If we are using **em** for font-size -> relative to the parent's font-size
+
+`
+html {
+font-size: 16px;
+}
+
+div {
+font-size: 2em;
+}
+
+p {
+font-size: 2em;
+}
+`
+
+For **p** font-size will be equal to:
+
+16px \* 2em = 32px
+
+32px \* 2em = 64px
+
+If we are using **rem** for font-size -> relative to the root font-size
+`
+html {
+font-size: 16px;
+}
+
+div {
+font-size: 2em;
+}
+
+p {
+font-size: 2em;
+}
+`
+
+For **p** font-size will be equal to:
+
+16px \* 2em = 32px
+
+16px \* 2em = 32px
