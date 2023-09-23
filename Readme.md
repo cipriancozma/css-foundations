@@ -73,7 +73,7 @@ Inline Styles - have higher specificity than IDs
 
 Related to the typography:
 
-1. If we are using **em** for font-size -> relative to the parent's font-size
+1. :+1: If we are using `**em**` for font-size -> relative to the parent's font-size
 
 `html {
 font-size: 16px;
@@ -93,7 +93,7 @@ For **p** font-size will be equal to:
 
 32px \* 2em = 64px
 
-2. If we are using **rem** for font-size -> relative to the root font-size
+2. :+1: If we are using `**rem**` for font-size -> relative to the root font-size
 
 `html {
 font-size: 16px;
@@ -113,7 +113,7 @@ For **p** font-size will be equal to:
 
 16px \* 2rem = 32px
 
-3. If we are using **%** for font-size:
+3. :+1: If we are using `**%**` for font-size:
 
 ` html {
 font-size: 16px;
