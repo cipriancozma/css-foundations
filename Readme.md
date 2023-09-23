@@ -60,7 +60,8 @@ Inline Styles - have higher specificity than IDs
 `color: rgba(255, 255, 255, .5)`
 
 - HSL
-  `color: hsl(50 80% 40%)`
+
+`color: hsl(50 80% 40%)`
 
 ### Fonts & Typography
 
