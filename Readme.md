@@ -38,3 +38,30 @@ Type Selector: 0 - 0 - 1
 Inline Styles - have higher specificity than IDs
 
 !important - override all the styles (not recommended)
+
+### Colors
+
+---
+
+- Named Color
+
+`color: red;`
+
+- Hexadecimal
+
+`color: #0000FF;`
+
+- RGB
+
+`color: rgb(31, 120, 50)`
+
+- RGBA
+
+`color: rgba(255, 255, 255, .5)`
+
+- HSL
+  `color: hsl(50 80% 40%)`
+
+### Fonts & Typography
+
+---
