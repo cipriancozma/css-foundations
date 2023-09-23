@@ -66,3 +66,7 @@ Inline Styles - have higher specificity than IDs
 ### Fonts & Typography
 
 ---
+
+**Font families** specifies a list of one or more font family names.
+
+`font-family: Georgia, serif;`
