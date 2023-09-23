@@ -75,8 +75,7 @@ Related to the typography:
 
 If we are using **em** for font-size -> relative to the parent's font-size
 
-`
-html {
+`html {
 font-size: 16px;
 }
 
@@ -86,8 +85,7 @@ font-size: 2em;
 
 p {
 font-size: 2em;
-}
-`
+}`
 
 For **p** font-size will be equal to:
 
@@ -96,22 +94,41 @@ For **p** font-size will be equal to:
 32px \* 2em = 64px
 
 If we are using **rem** for font-size -> relative to the root font-size
-`
-html {
+
+`html {
 font-size: 16px;
 }
 
 div {
-font-size: 2em;
+font-size: 2rem;
 }
 
 p {
-font-size: 2em;
-}
-`
+font-size: 2rem;
+}`
 
 For **p** font-size will be equal to:
 
-16px \* 2em = 32px
+16px \* 2rem = 32px
 
-16px \* 2em = 32px
+16px \* 2rem = 32px
+
+If we are using **%** for font-size:
+
+` html {
+font-size: 16px;
+}
+
+div {
+font-size: 120%;
+}
+
+p {
+font-size: 120%;
+} `
+
+For **%** font-size will be equal to:
+
+120% => 1.2 \* 16 = 19.2px
+
+120% => 1.2 \* 19.2 = 23.04px
