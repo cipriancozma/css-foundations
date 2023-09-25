@@ -132,3 +132,19 @@ For **%** font-size will be equal to:
 120% => 1.2 \* 16 = 19.2px
 
 120% => 1.2 \* 19.2 = 23.04px
+
+### Combinators
+
+---
+
+`<ul>
+
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li><a href="#">Link 3</a></li>
+</ul>
+`
+
+`ul li a {
+    color: red
+}`
