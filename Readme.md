@@ -151,3 +151,34 @@ For **%** font-size will be equal to:
 `ul li a {
     color: red
 }`
+
+#### Child Combinators (Direct Descendants)
+
+`
+
+<div class="text">
+    <p>Here is some text. </p>
+    <div>
+        <p>Here is some more text. </p>
+    </div>
+</div>
+`
+
+`div.text > p {
+    font-weight: bold;
+}`
+
+#### Adjacent Sibling Combinators
+
+`
+
+<h1>Hello world!</h1>
+<p>This is a paragraph!</p>
+<p>This is another paragraph</p>
+`
+
+`h1 + p {
+    color: red
+}`
+
+The first paragraph after the **h1** will be with red color
