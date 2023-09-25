@@ -152,7 +152,7 @@ For **%** font-size will be equal to:
     color: red
 }`
 
-#### Child Combinators (Direct Descendants)
+##### Child Combinators (Direct Descendants)
 
 `
 
@@ -168,7 +168,7 @@ For **%** font-size will be equal to:
     font-weight: bold;
 }`
 
-#### Adjacent Sibling Combinators
+##### Adjacent Sibling Combinators
 
 `
 
@@ -182,3 +182,22 @@ For **%** font-size will be equal to:
 }`
 
 The first paragraph after the **h1** will be with red color
+
+##### General Sibling Combinators
+
+`
+
+<p>This is a paragraph </p>
+<code> Here is some code </code>
+<code> Here is some more code </code>
+<p>This is another paragrah</p>
+<div>
+    <code>Here is the last block of code</code>
+</div>
+`
+
+`p ~ code {
+    color: red
+}`
+
+The first and second **code** element will be in red.
