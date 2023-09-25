@@ -201,3 +201,28 @@ The first paragraph after the **h1** will be with red color
 }`
 
 The first and second **code** element will be in red.
+
+### Block Element Modifier (BEM)
+
+---
+
+BEM is a design methodology that helps create reusable components and code sharing.
+
+**Other Methodologies**:
+
+- OOCSS
+- SMACSS
+- SUITCVSS
+- Atomic
+- BEM
+
+BEM in practice
+
+`.block__element--modifier`
+
+For instance:
+
+`.form
+.form__input
+.form__input--disabled
+.form__input--large`
