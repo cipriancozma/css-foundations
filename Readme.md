@@ -137,6 +137,8 @@ For **%** font-size will be equal to:
 
 ---
 
+# Descendent Selector
+
 `
 
 <ul>
