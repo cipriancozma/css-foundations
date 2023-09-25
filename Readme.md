@@ -137,8 +137,9 @@ For **%** font-size will be equal to:
 
 ---
 
-`<ul>
+`
 
+<ul>
 <li><a href="#">Link 1</a></li>
 <li><a href="#">Link 2</a></li>
 <li><a href="#">Link 3</a></li>
