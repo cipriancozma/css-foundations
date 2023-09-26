@@ -16,7 +16,7 @@ a {
   text-decoration: none;
 }
 
-header {
+.header {
   display: grid;
   grid-template-columns: 1fr 3fr 34px;
   grid-template-rows: 1fr;
@@ -25,26 +25,22 @@ header {
   padding: 0 60px;
 }
 
-header > a {
+.header__link {
   font-size: 40px;
   font-weight: bold;
 }
 
-header img {
-  grid-area: shopping-cart;
-}
-
-nav {
+.nav {
   display: inline-block;
   justify-self: end;
 }
 
-nav > ul {
+.nav__list {
   list-style: none;
   display: flex;
 }
 
-nav > ul li {
+.nav__list--item {
   margin-right: 36px;
   font-size: 20px;
 }
