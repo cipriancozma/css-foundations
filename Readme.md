@@ -226,3 +226,50 @@ For instance:
 .form__input
 .form__input--disabled
 .form__input--large`
+
+### BOX Model
+
+From inner to outer: Content -> Padding -> Border -> Margin
+
+### Pseudo Classes, Elements & Transitions
+
+###### Input Pseudo-Classes:
+
+- :enabled
+- :disabled
+- :checked
+- :required
+- :optional
+
+###### Resource State Pseudo-Classes:
+
+- :playing
+- :paused
+
+###### Tree Structural Pseudo Classes:
+
+- :root
+- :empty
+- :nth-child
+- :nth-last-child
+- :first-child
+- :last-child
+- :nth-of-type
+
+###### User Action Pseudo Classes:
+
+- :hover
+- :active
+- :focus
+
+###### Functional Pseudo Classes:
+
+- :is()
+- :not()
+
+###### Pseudo-Elements:
+
+- ::before
+- ::after
+- ::placeholder
+- ::first-line
