@@ -229,9 +229,13 @@ For instance:
 
 ### BOX Model
 
+---
+
 From inner to outer: Content -> Padding -> Border -> Margin
 
 ### Pseudo Classes, Elements & Transitions
+
+---
 
 ###### Input Pseudo-Classes:
 
