@@ -43,3 +43,9 @@
 .company__bio {
   color: var(--color-text-on-secondary);
 }
+
+@media (max-width: 1000px) {
+  .speakers__wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
