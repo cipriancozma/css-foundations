@@ -1,3 +1,6 @@
+![Project Demo](https://github.com/cipriancozma/css-foundations/assets/38767799/c838b7d9-97ba-4393-9258-2fdef83510d2)
+
+
 ## How CSS is rendered
 
 ---
