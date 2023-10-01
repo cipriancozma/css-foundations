@@ -44,8 +44,18 @@
   color: var(--color-text-on-secondary);
 }
 
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
+
 @media (max-width: 1000px) {
   .speakers__wrapper {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 840px) {
+  .nav {
+    background-color: var(--color-text-on-primary);
   }
 }
